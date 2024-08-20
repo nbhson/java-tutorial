@@ -2,20 +2,6 @@
 
 - Gán kiểu dữ liệu để xác định biến mang kiểu dữ liệu nào, kiểu dữ liệu là tập hợp những nhóm dữ liệu có chung đặc tính, cách lưu trữ và thao tác xử lí.
 - Nhờ có kiểu dữ liệu compiler nhận biết được kích thước của một biến và khả năng lưu trữ của nó. Mục đích để lưu trữ và tái xử dụng.
-  
-Có 2 kiểu dữ liệu trong java:
-- Kiểu dữ liệu nguyên thủy: có 8 kiểu dữ liệu nguyên thủy trong java
-    - **Boolean**: giá trị là true hoặc false.
-    - **Byte**: lưu trữ kiểu số nguyên kích cỡ là 1 byte (1 byte = 8 bit). Có giá trị lưu trữ từ -128 đến 127.
-    - **Short**: lưu trữ kiểu số nguyên kích cỡ là 2 byte (16 bit). Giá trị có thể lưu từ -32,768 đến 32,767.
-    - **Int**: lưu trữ kiểu số nguyên kích cỡ là 4 byte (32 bit). Gía trị có thế lưu từ -2,147,483,648 đến 2,147,483,647.
-    - **Long**: lưu trữ kiểu số nguyên kích cỡ là 8 byte (64 bit). Gía trị có thể lưu từ … đến …
-    - **Float**: lưu trữ kiểu số thực kích cỡ là 4 byte. Khi gán giá trị cần “f” phía sau.
-    - **Double**: lưu trữ kiểu số thực kích cỡ là 8 byte. Khi gán giá trị có thể có hoặc không “d” ở phía sau.
-    - **Char**: Kiểu dữ liệu để lưu trữ kí tự trong bảng Unicode
-
--	Kiểu dữ liệu tham chiếu
-    - Kiểu dữ liệu tham chiếu là kiểu dữ liệu của đối tượng, biến của kiểu dữ liệu tham chiếu chỉ chứa địa chỉ của đối tượng tại bộ nhớ stack. Đối tượng dữ liệu lại nằm ở bộ nhớ Heap. Một số kiểu dữ liệu cụ thể như các mảng (Array), lớp đối tượng (Class) hoặc kiểu lớp giao tiếp (Interface) 
 
 ![alt text](image.png)
 
