@@ -1,44 +1,35 @@
 package list;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.ListIterator;
-
 public class Main {
 	public static void main(String[] args) {
-		// 1 chiều
-		int[] a = new int[3];
-		a[0] = 0;
-		a[1] = 1;
-		a[2] = 2;
-		
-		System.out.println(a[0]);
-		
-		// nhiều chiều
-		int[][] b= {{1,2,3},{4,5,6},{7,8,9}};
-        for (int i=0; i<3; i++){
-            for(int j=0; j<3; j++){
-                System.out.print(b[i][j]+" ");
-            }
-            System.out.println();
-        }
-        
-        // sort 
-        int[] arr = { 13, 7, 6, 45, 21, 9, 101, 102 };
-        Arrays.sort(arr);
-        
-        System.out.printf("Modified arr[] : %s",
-                Arrays.toString(arr));
-        
-        // Shallow copy
-        int[] src = {1,2,3,4,5};
-        int[] dst = Arrays.copyOf(src, src.length);
+		// create 2 Boolean objects b1, b2
+		Boolean b1, b2;
 
-        // Deep copy
-        int[] dst2 = new int[src.length];
-        for(int i = 0; i < src.length; i++){
-        	dst2[i] = src[i];
-        }
+		// assign values to b1, b2
+		b1 = Boolean.valueOf(false);
+		b2 = Boolean.valueOf(true);
+
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println(b1 == b2);
+		System.out.println(b1 != b2);
+
+		// create an int res
+		int res;
+
+		// compare b1 with b2
+		res = b1.compareTo(b2);
+
+		String str1 = "Both values are equal ";
+		String str2 = "Object value is true";
+		String str3 = "Argument value is true";
+
+		if (res == 0) {
+			System.out.println(str1); // same value
+		} else if (res > 0) {
+			System.out.println(str2); // different value true-false
+		} else if (res < 0) {
+			System.out.println(str3); // different value false-true
+		}
 	}
 }
