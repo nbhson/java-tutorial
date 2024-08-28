@@ -5,36 +5,6 @@ import java.util.ListIterator;
 public class Main {
 	public static void main(String[] args) {
 		
-		//	ArrayList được sử dụng như một mảng động để lưu trữ các phần tử.
-		//
-		//	Những điểm cần ghi nhớ về ArrayList:
-		//
-		//	+ Lớp ArrayList trong java có thể chứa các phần tử trùng lặp.
-		//	+ Lớp ArrayList duy trì thứ tự của phần tử được thêm vào.
-		//	+ Lớp ArrayList là không đồng bộ (non-synchronized).
-	
-		//	+ Lớp ArrayList trong java, thao tác chậm vì cần nhiều sự dịch chuyển nếu bất kỳ phần tử nào bị xoá khỏi danh sách.
-		// 	+ ArrayList nội bộ sử dụng mảng động để lưu trữ các phần tử.
-		//  + chỉ có thể hoạt động như một list vì nó chỉ implements giao tiếp List.
-		//  + ArrayList là tốt hơn trong việc lưu trữ và truy cập dữ liệu.
-
-		
-		// add: thêm phần tử vào arrList
-		// set(index): update phần tử
-		// get(index): lấy phần tử
-		// remove(index): xóa phần tử của list
-		// clear(): xóa tất cả các phần tử ra khỏi arrList
-		// contains(value): kiểm tra phần tử có tồn tại trong list không
-		
-		// addAll: thêm tất cả phần tử của một arrList vào một arrList khác
-		// retainAll: xóa những phần tử của listA không có trong listB
-		// removeAll: xóa tất cả những phần tử của listA ra khỏi listB
-		
-		// indexOf: tìm phần tử đầu tiên xuất hiện trong list
-		// lastIndexOf: tìm phần tử xuất hiện cuối cùng trong list
-		// toArray: chuyển list thành mảng
-		
-
 		// Array List
 		ArrayList<String> originList = new ArrayList<String>();
 		originList.add("Java");
@@ -65,7 +35,8 @@ public class Main {
         ArrayList<String> listB = new ArrayList<String>();
         listB.add("Java");
         // xóa những phần tử không thuộc listB ra khỏi listA
-        listA.retainAll(listB);
+        listA.retainAll(listB); 
+        // listB.addAll(listA); // question
         
         System.out.println("listA: " + listA); // [Java]
         System.out.println("listB: " + listB); // [Java]
@@ -88,5 +59,19 @@ public class Main {
         // xóa tất cả phần tử trong list
         originList.clear();
         System.out.println("clear: " + originList);  // []
+
+        originList.add(0, "No value");
+        // originList.add(1, "No value"); // error
+        System.out.println("clear: " + originList);  // [No value]
+
+        System.out.println(originList.get(0) instanceof String); // true
+
+        // ----------------------------------------------- //
+
+        ArrayList<Object> listObj = new ArrayList<>();
+        listObj.add("Son Nguyen");
+        listObj.add(26);
+        listObj.add(true);
+        System.out.println(listObj);
 	}
 }
