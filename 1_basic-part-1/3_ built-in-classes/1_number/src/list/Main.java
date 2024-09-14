@@ -15,6 +15,6 @@ public class Main {
 		System.out.println(c);
 
 		Number n = 10;
-		System.out.println(n instanceof Integer); // question
+		System.out.println(n instanceof Integer); // (question: the different between Number & Integer? real use case?)
 	}
 }

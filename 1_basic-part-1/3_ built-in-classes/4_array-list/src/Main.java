@@ -36,7 +36,7 @@ public class Main {
         listB.add("Java");
         // xóa những phần tử không thuộc listB ra khỏi listA
         listA.retainAll(listB); 
-        // listB.addAll(listA); // question
+        // listB.addAll(listA); // (question: when we use ArrayList & LinkedList)
         
         System.out.println("listA: " + listA); // [Java]
         System.out.println("listB: " + listB); // [Java]
