@@ -26,3 +26,11 @@ public static void main(String []args) {}
 ```
 
 This line represents the main method that JVM calls when this program is loaded into memory. This method is used to execute the program. Once this method is finished, program is finished in single threaded environment.
+
+### Compilation and Execution
+
+- Trong Java, quá trình biên dịch (`compilation`) chạy trước quá trình thực thi (`execution`). Trong quá trình biên dịch, mã nguồn Java được biên dịch thành mã bytecode, sau đó mã bytecode này được thực thi bởi máy ảo Java (JVM) trong quá trình thực thi.
+
+### Runtime
+
+Trong lập trình, "`Runtime`" thường đề cập đến `môi trường thực thi của chương trình`, bao gồm các thư viện, biến môi trường và các tài nguyên hệ thống khác mà chương trình cần để chạy. Khái niệm "Runtime" không trực tiếp liên quan đến quá trình biên dịch (compilation) mà chỉ liên quan đến quá trình thực thi (execution) của chương trình. Runtime cung cấp môi trường để chương trình có thể thực thi và tương tác với hệ thống.
