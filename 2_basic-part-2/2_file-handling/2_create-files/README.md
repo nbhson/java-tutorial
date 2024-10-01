@@ -5,7 +5,7 @@
 We can create a file in Java using multiple ways. Following are three most popular ways to create a file in Java −
 
 > Using FileOutputStream() constructor
-> Using File.createNewFile() method
+> Using File.createNewFile() method // Should using
 > Using Files.write() method
 
 ## Create File Using FileOutputStream Constructor
