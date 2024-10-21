@@ -6,5 +6,8 @@ public class Main {
 		System.out.println(person.getName());
 		System.out.println(person.getAge());
 		System.out.println(person.getHeight());
+
+		Employee emp = new Employee("");
+		emp.printEmployee();
 	}
 }
