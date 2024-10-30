@@ -31,13 +31,13 @@
 ### Tính kế thừa (Inheritance)
 - Tính kế thừa cho phép xây dựng một lớp mới (lớp Con), kế thừa và tái sử dụng các thuộc tính, phương thức dựa trên lớp cũ (lớp Cha) đã có trước đó.
 - Lớp con sẽ kế thừa tất cả các thành phần của lớp cha, nhờ sự chia sẻ này mới có thể mở rộng những đặc tính sẵn có mà không cần định nghĩa lại (khả năng tái sử dụng).
-> Tính chất này được thể hiện qua: Inheritance
+> Tính chất này được thể hiện qua: Extend, Super, Single Inheritance
  
 ### Tính đa hình (Polymorphism)
 - Thuật ngữ "đa hình" có nghĩa là "nhiều dạng". Trong lập trình hướng đối tượng, đa hình hữu ích khi bạn muốn tạo nhiều dạng có cùng tên của một thực thể duy nhất.
 - Quá trình nạp chồng phương thức được thực hiện trong cùng một lớp, trong đó chúng ta có nhiều phương thức có cùng tên nhưng tham số khác nhau, 
 - Trong khi ghi đè phương thức được thực hiện bằng cách sử dụng tính kế thừa, trong đó chúng ta có thể có nhiều phương thức có cùng tên trong lớp cha và lớp con.
-> Tính chất này được thể hiện qua: overriding, overloading
+> Tính chất này được thể hiện qua: overriding, overloading, implement
 
 
 ## Ưu điểm của Java OOP 

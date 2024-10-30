@@ -1,5 +1,6 @@
 package inheritance;
 
+import model.Person;
 import model.Student;
 import model.Teacher;
 
@@ -10,5 +11,9 @@ public class Main {
 		
 		System.out.println(student.fullInfo());
 		System.out.println(teacher.fullInfo());
+		System.out.println(student.getName());
+
+		// Person person = new Person("Son", 18, 170);
+		// person.getAgeFromPerson(); // error
 	}
 }
