@@ -37,7 +37,7 @@
 - Thuật ngữ "đa hình" có nghĩa là "nhiều dạng". Trong lập trình hướng đối tượng, đa hình hữu ích khi bạn muốn tạo nhiều dạng có cùng tên của một thực thể duy nhất.
 - Quá trình nạp chồng phương thức được thực hiện trong cùng một lớp, trong đó chúng ta có nhiều phương thức có cùng tên nhưng tham số khác nhau, 
 - Trong khi ghi đè phương thức được thực hiện bằng cách sử dụng tính kế thừa, trong đó chúng ta có thể có nhiều phương thức có cùng tên trong lớp cha và lớp con.
-> Tính chất này được thể hiện qua: overriding, overloading, implement
+> Tính chất này được thể hiện qua: overriding, overloading, implement/extend (nhiều class/interface)
 
 
 ## Ưu điểm của Java OOP 
