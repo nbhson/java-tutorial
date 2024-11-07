@@ -16,5 +16,9 @@ public class Person {
 	public static String getPersionInfo() {
 		return "Your age: " + age;
 	}
+
+	public String getFirstName() {
+		return this.firstName;
+	}
 	
 }

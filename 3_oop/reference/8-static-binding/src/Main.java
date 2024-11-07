@@ -19,5 +19,8 @@ public class Main {
 		System.out.println(Person.getPersionInfo());
 		
 		System.out.println(Person.total);
+
+		System.out.println(person1.getPersionInfo()); // 21
+		System.out.println(person1.getFirstName()); // Sơn
 	}
 }
