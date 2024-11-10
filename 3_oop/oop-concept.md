@@ -31,15 +31,15 @@
 
 > Tính chất này được thể hiện qua: overriding, overloading, implement/extend (nhiều class/interface), dynamic binding, static binding, static
 
-### Tính đóng gói(Encapsulation)
-- Tính chất này nhằm bảo về đối tượng không bị truy cập từ code bên ngoài vào để thay đổi giá trị các thuộc tính hoặc truy cập trực tiếp.
-- Tính chất này giúp tăng tính bảo mật cho đối tượng và tránh tình trạng dữ liệu bị hư hỏng ngoài ý muốn.
-> Tính chất này được thể hiện qua các bài: access modifier, setters, getters.
- 
 ### Tính trừu tượng (Abstraction)
 - Ví dụ thực tế về sự trừu tượng là một chiếc ô tô, các chi tiết bên trong như động cơ, quá trình khởi động ô tô, quá trình chuyển số, v.v. được ẩn khỏi người dùng và các tính năng như nút khởi động, số, màn hình, phanh, v.v. được cung cấp cho người dùng. 
 - Khi chúng ta thực hiện bất kỳ hành động nào trên các tính năng này, quy trình bên trong sẽ hoạt động.
 > Tính chất này được thể hiện qua các bài: abstract class, interface
+
+### Tính đóng gói(Encapsulation)
+- Tính chất này nhằm bảo về đối tượng không bị truy cập từ code bên ngoài vào để thay đổi giá trị các thuộc tính hoặc truy cập trực tiếp.
+- Tính chất này giúp tăng tính bảo mật cho đối tượng và tránh tình trạng dữ liệu bị hư hỏng ngoài ý muốn.
+> Tính chất này được thể hiện qua các bài: access modifier, setters, getters.
 
 
 ## Ưu điểm của Java OOP 
