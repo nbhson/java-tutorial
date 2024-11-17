@@ -70,3 +70,9 @@ Sau đây là những ưu điểm của việc sử dụng OOP trong Java:
 - Việc thực thi OOP nhanh hơn lập trình hướng thủ tục. 
 - OOP cung cấp khả năng tái sử dụng mã để lập trình viên có thể tái sử dụng mã hiện có. 
 - OOP giúp chúng ta giữ dữ liệu quan trọng được ẩn.
+
+## Mục đích chính của OOP trong Java:
+- **Tăng cường khả năng tái sử dụng mã**: Bằng cách sử dụng kế thừa và đóng gói, bạn có thể dễ dàng tái sử dụng mã đã viết.
+- **Cải thiện khả năng bảo trì**: Mã OOP dễ dàng bảo trì hơn vì các thành phần được tổ chức rõ ràng và có thể thay đổi mà không ảnh hưởng đến toàn bộ hệ thống.
+- **Tăng cường khả năng mở rộng**: OOP cho phép bạn mở rộng các lớp hiện có mà không cần phải thay đổi mã gốc.
+- **Giảm độ phức tạp**: Bằng cách sử dụng trừu tượng, bạn có thể làm cho mã của mình dễ hiểu hơn và giảm thiểu sự phức tạp.
